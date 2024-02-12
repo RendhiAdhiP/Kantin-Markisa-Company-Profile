@@ -1,0 +1,321 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Kantin Markisa</title>
+  <link rel="stylesheet" type="text/css" href="Asset/style.css"  />
+  <link
+    href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+    rel="stylesheet"
+    integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
+    crossorigin="anonymous"
+  />
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.2/font/bootstrap-icons.min.css">
+
+  <link rel="stylesheet" href="Asset/swiper-bundle.min.css">
+  <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+</head>
+<body>
+  
+  <div id="popup-container">
+    <div id="close-btn" onclick="closePopup()"><i class="bi bi-x-circle"></i></div>
+    <img id="popup-img" src="Image/Brosur.jpg" alt="Popup Image">
+  </div>
+  <header>
+    <nav class="nav-container">
+      <div class="logo">Kantin<span id="Markisa" >Markisa</span></div>  
+      <ul class="menu">
+        <li class="menu-item"><a href="index.html">Beranda</a></li>
+        <li class="menu-item ">
+          <a href="#Artikel" >Artikel</a>
+        </li>
+        <li class="menu-item"><a href="#Produk">Produk</a></li>
+        <li class="menu-item"><a href="#Galeri">Galeri</a></li>
+        <li class="menu-item"><a href="#Kontak">Kontak</a></li>
+      </ul> 
+    </nav>
+    <div class="header-content" >
+      <div class="isi" data-aos="fade-right" data-aos-duration="1500">  
+        <h1>Temukan hidangan istimewa, di "Kantin Markisa"</h1>
+        <p>Kantin Osis menyediakan berbagai produk makanan dan minuman dengan harga yang ramah di kantong, 
+          apalagi di kalangan anak sekolah. Kantin Markisa sedang ada diskon 15% dengan minimal belanja 20k untuk semua produk. Jangan lewatkan kesempatan spesial untuk berhemat, segera datang dan dapatkan produk yang kalian inginkan dengan harga terbaik.</p>
+        <a href="#Artikel" class="btn btn-success mt-5">Jelajahi selengkapnya</a>
+      </div>
+      <img src="Image/Galeri/Mask group.png" alt="" data-aos="fade-up" data-aos-duration="1500">
+    </div>
+
+  </header>
+  <main>
+    <div id="Artikel" class="content mt-5"> 
+      <div  class="d-flex justify-content-center ">
+        <h2  class="fs1" data-aos="fade-right" data-aos-duration="1200">Artikel</h2>
+      </div>
+      <article id="carouselExampleIndicators" class="carousel slide wp-carousel artikel">
+        <div class="carousel-indicators" >
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+        </div>
+        <div class="carousel-inner" id="">
+          <div class="carousel-item active">
+            <div class="itm">
+                <img src="Image/Galeri/Hero.jpg" alt="" data-aos="fade-right" data-aos-duration="1500">
+                <div class="content"  data-aos="fade-up" data-aos-duration="1500">
+                  <h2>Sejarah</h2>
+                  <p>Kantin Osis atau pernah disebut Angkringan Putih abu dan 
+                    sekarang dikenal dengan Kantin Markisa adalah salah satu bisnis bidang 
+                    kewirausahaan di SMKN 1 JATIROTO. Disebut kantin osis karena pengurusnya 
+                    adalah anak-anak osis...
+                  </p>
+                  <a href="Artikel/Sejarah.html" class="  ">Baca Selengkapnya</a>
+                </div>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <div class="itm">
+              <img src="Image/Cover/c1.png" alt=""  data-aos="fade-right" data-aos-duration="1500"> 
+              <div class="content"  data-aos="fade-up" data-aos-duration="1500">
+                <h2>Struktur Organisasi</h2>
+                <p>
+                  Struktur Pengurus Kantin Markisa
+                </p>
+                
+                <a href="Artikel/Struktur.html" class="mt-5   ">Baca Selengkapnya</a>
+              </div>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <div class="itm">
+              <img src="Image/Cover/c2.png" alt=""  data-aos="fade-right" data-aos-duration="1500">
+              <div class="content"  data-aos="fade-up" data-aos-duration="1500">
+                <h2>Visi & Misi</h2>
+                <p> VISI :
+                  Menjadi Kantin Osis yang menjadi pusat kegiatan siswa, meberikan pilihan makanan sehat dan 
+                  bergizi serta menciptakan lingkungan yang ramah dan inspiratif bagi seluruh warga sekolah... 
+                </p>
+                <a href="Artikel/Visi.html" class="  ">Baca Selengkapnya</a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <button class="carousel-control-prev " type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+
+        </button>
+      </article>
+
+
+      <article id="Produk">
+        <h2 class="d-flex justify-content-center" data-aos="fade-right" data-aos-duration="500">Produk</h2>
+        <div class="wrapper">
+          <section class="produk-utama shadow"  data-aos="fade-up" data-aos-duration="500">
+            <div class="img"> </div>
+            <div class="text">
+              <h3 class="mb-1 d-flex justify-content-center">Ginastel</h3>
+              <p class="m-0 mt-1">Minuman teh asli dengan banyak varian rasa</p>
+              <ul class=" d-flex gap-1 justify-content-center p-0 mt-3 mb-0 rate">
+                <li> <i class="bi bi-star-fill"></i></li>
+                <li> <i class="bi bi-star-fill"></i></li>
+                <li> <i class="bi bi-star-fill"></i></li>
+                <li> <i class="bi bi-star-fill"></i></li>
+                <li> <i class="bi bi-star-fill"></i></li>
+                <p class=" fw-normal">| 5,0 </p>
+              </ul>
+              <div class="butn mt-1">
+                <p class="d-flex justify-content-center">Rp 3000,00</p>
+              </div>
+            </div>
+          </section>
+
+          <section  class="produk-item">
+            <div class="itm shadow"  data-aos="fade-up" data-aos-duration="500">
+              <div class="img ">
+                <img src="Image/Produk/2.png" alt="">
+              </div>
+              <div class="text">
+                <p class="mt-2 d-flex justify-content-center">Sari Gandum</p>
+                <p class="d-flex justify-content-center mt-1">Rp 2000,00</p>
+              </div>
+            </div>
+            <div class="itm shadow"  data-aos="fade-up" data-aos-duration="500">
+              <div class="img">
+                <img src="Image/Produk/3.png" alt="">
+              </div>
+              <div class="text">
+                <p class="mt-2 d-flex justify-content-center">Brownies</p>
+                <p class="d-flex justify-content-center mt-1">Rp 2500,00</p>
+              </div>
+            </div>
+            <div class="itm shadow shadow-1-strong"  data-aos="fade-up" data-aos-duration="500">
+              <div class="img">
+                <img src="Image/Produk/4.png" alt="">
+              </div>
+              <div class="text">
+                <p class="mt-2 d-flex justify-content-center">Nasi ayam geprek</p>
+                <p class="d-flex justify-content-center mt-1">Rp 5000,00</p>
+              </div>
+            </div>
+            <div class="itm shadow"  data-aos="fade-up" data-aos-duration="500">
+              <div class="img">
+                <img src="Image/Produk/5.png" alt="">
+              </div>
+              <div class="text">
+                <p class="mt-2 d-flex justify-content-center">Pempek ikan</p>
+                <p class="d-flex justify-content-center mt-1">Rp 5000,00</p>
+              </div>
+            </div>
+            <div class="itm shadow"  data-aos="fade-up" data-aos-duration="500"> 
+              <div class="img">
+                <img src="Image/Produk/6.png" alt="">
+              </div>
+              <div class="text">
+                <p class="mt-2 d-flex justify-content-center">Maklor</p>
+                <p class="d-flex justify-content-center mt-1">Rp 2000,00</p>
+              </div>
+            </div>
+            <div class="itm shadow"  data-aos="fade-up" data-aos-duration="500">
+              <div class="img">
+                <img src="Image/Produk/7.png" alt="">
+              </div>
+              <div class="text">
+                <p class="mt-2 d-flex justify-content-center">Bakpao</p>
+                <p class="d-flex justify-content-center mt-1">Rp 2000,00</p>
+              </div>
+            </div>
+            <div class="itm shadow"  data-aos="fade-up" data-aos-duration="500">
+              <div class="img">
+                <img src="Image/Produk/WhatsApp Image 2023-12-01 at 16.44.27.jpeg" alt="">
+              </div>
+              <div class="text">
+                <p class="mt-2 d-flex justify-content-center">Siomay</p>
+                <p class="d-flex justify-content-center mt-1">Rp 3000,00</p>
+              </div>
+            </div>
+            <div class="itm shadow"  data-aos="fade-up" data-aos-duration="500">
+              <div class="img">
+                <img src="Image/Produk/WhatsApp Image 2023-12-01 at 16.53.15.jpeg" alt="">
+              </div>
+              <div class="text">
+                <p class="mt-2 d-flex justify-content-center">Teh botol</p>
+                <p class="d-flex justify-content-center mt-1">Rp 4000,00</p>
+              </div>
+            </div>
+          </section>
+        </div>
+        <a href="Tabel/tabel.html" class="btn btn-success text-center mt-5"  data-aos="fade-up" data-aos-duration="1500">Tabel Produk</a>
+      </article>
+      
+      <article id="Galeri" class="p-5 ">
+        <h2 class="d-flex justify-content-center "  data-aos="fade-right" data-aos-duration="1500">Galeri</h2>
+        <div class="foto row p-5" >
+          <div class="foto ">
+            <h3 data-aos="fade-right" data-aos-duration="500">Foto</h3>
+              <div class="wrapper row mt-4">
+                <div class="col-lg-4 col-md-12 mb-4 mb-lg-0 "  >
+                  <img
+                    
+                    src="Image/Galeri/lan2.jpg"
+                    class="w-100 shadow-1-strong overlay zoom rounded mb-4"
+            
+                    data-aos="fade-up" data-aos-duration="500"
+                  />
+              
+                  <img
+                    src="Image/Galeri/IMG_2171.jpeg"
+                    class="w-100 shadow-1-strong overlay zoom rounded mb-4"
+            
+                    data-aos="fade-up" data-aos-duration="500"
+                  />
+                </div>
+              
+                <div class="col-lg-4 mb-4 mb-lg-0">
+                  <img
+                    src="Image/Galeri/IMG_2176.jpeg"
+                    class="w-100 shadow-1-strong overlay zoom rounded mb-4"
+            
+                    data-aos="fade-up" data-aos-duration="500"
+                  />
+              
+                  <img
+                    src="Image/Galeri/lan1.jpg"
+                    class="w-100 shadow-1-strong overlay zoom- rounded mb-4"
+            
+                    data-aos="fade-up" data-aos-duration="500"
+                  />
+                </div>
+              
+                <div class="col-lg-4 mb-4 mb-lg-0 overlay zoom">
+                  <img
+                    src="Image/Galeri/Hero.jpg"
+                    class="w-100 shadow-1-strong img-fluid rounded mb-4"
+            
+                    data-aos="fade-up" data-aos-duration="500"
+                  />
+              
+                  <img
+                    src="Image/Galeri/IMG_2170.jpeg"
+                    class="w-100 shadow-1-strong img-fluid rounded mb-4"
+            
+                    data-aos="fade-up" data-aos-duration="500"
+                  />
+                </div>
+              </div>
+          </div>
+          <div class="video mt-5">
+            <h3 data-aos="fade-right" data-aos-duration="500">Video</h3>
+            <iframe class="rounded mt-4" width="560" height="315" src="https://www.youtube.com/embed/mdh519Vs6eQ?si=xF-HJoZaMnb6rVSS" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen data-aos="fade-up" data-aos-duration="500"></iframe>
+          </div>
+          
+        </div>
+        
+      </article>
+    </div>
+  </main>
+
+  <footer id="Kontak">
+      <div class="cardc copyright">
+          <h5>Kantin Markisa Company Profile</h5>
+          <p> Copyright © 2023 Tim 11 </p>
+      </div>
+      <div class="cardc sosial">
+          <h5>Sosial</h5>
+          <ul>
+              <li><i class="bi bi-github"></i></li>
+              <li><i class="bi bi-twitter"></i></li>
+              <li><i class="bi bi-instagram"></i></li>
+              <li><i class="bi bi-linkedin"></i></li>  
+          </ul>
+          <p>Please follow our social media</p>
+      </div>
+
+      <div class="cardc input" >
+          <h5>Send Email</h5>
+          <div class="c-input">
+              <input type="text"  placeholder="@gmail.com">
+              <button class="btn-primary">Submit</button>
+          </div>
+          <p>Please contact us to provide suggestions or criticism</p>
+      </div>
+      
+  </footer>
+
+  <script src="Asset/main.js"></script>
+  <script
+    src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+    crossorigin="anonymous"
+  ></script>
+
+  <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+  <script>
+      AOS.init();
+  </script>
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"></script>
+  
+
+</body>
+</html>
